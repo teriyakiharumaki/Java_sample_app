@@ -1,3 +1,5 @@
+package com.example.demo.chat;
+
 public class HelloMessage {
     private String name;
     private String message;

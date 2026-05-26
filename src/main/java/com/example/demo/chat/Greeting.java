@@ -1,3 +1,5 @@
+package com.example.demo.chat;
+
 public class Greeting {
     private String content;
 
