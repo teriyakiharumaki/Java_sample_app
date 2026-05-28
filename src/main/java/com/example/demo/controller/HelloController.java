@@ -13,13 +13,13 @@ package com.example.demo.controller;
   public class HelloController {
   
       // "/"へのGETリクエストを処理するメソッド
-      @GetMapping("/")
-      public String helloForm(Model model) {
+      //@GetMapping("/")
+      //public String helloForm(Model model) {
           // 初期値として空のHelloFormオブジェクトをビューに渡す
-          model.addAttribute("form", new HelloForm());
+          //model.addAttribute("form", new HelloForm());
           // "hello.html"テンプレートをレンダリング
-          return "hello";
-      }
+          //return "hello";
+      //}
   
       // "/send"へのPOSTリクエストを処理するメソッド
       @PostMapping("/send")
